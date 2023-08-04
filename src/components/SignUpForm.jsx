@@ -21,7 +21,7 @@ console.log(result);
     <>
       <h2>Sign Up</h2>
       {error && <p>{error}</p>}
-      <form onSubmit={handleSubmit} >
+      <form id="form" onSubmit={handleSubmit} >
         <label>
           Username:{" "}
           <input
